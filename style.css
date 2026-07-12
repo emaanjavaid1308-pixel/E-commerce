@@ -1,0 +1,250 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef2f7;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    color: #222;
+    font-size: 28px;
+}
+
+/* Form Card */
+form{
+    width: 420px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+label{
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Inputs */
+input, select{
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus{
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74,144,226,0.3);
+}
+
+/* Button */
+button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: linear-gradient(135deg, #4a90e2, #357ABD);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+form{
+    animation: fadeIn 0.6s ease-in-out;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef2f7;
+}
+
+/* Page title */
+h2{
+    text-align: center;
+    margin-top: 30px;
+    color: #222;
+}
+
+/* Form card */
+form{
+    width: 380px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+form:hover{
+    transform: translateY(-3px);
+}
+
+/* Input field */
+input{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus{
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74,144,226,0.3);
+}
+
+/* Button */
+button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #4a90e2, #357ABD);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef2f7;
+    margin: 0;
+}
+
+/* Page Title */
+h2{
+    text-align: center;
+    margin-top: 25px;
+    color: #222;
+}
+
+/* Table design */
+table{
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table header */
+th{
+    background: #4a90e2;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* Table cells */
+td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+/* Hover effect */
+tr:hover{
+    background: #f2f6ff;
+}
+
+/* Product image */
+td img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Action buttons */
+a{
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 13px;
+}
+
+/* Edit button */
+a.edit{
+    background: #28a745;
+}
+
+a.edit:hover{
+    background: #1e7e34;
+}
+
+/* Delete button */
+a.delete{
+    background: #dc3545;
+}
+
+a.delete:hover{
+    background: #a71d2a;
+}
+.categories{
+    width: 220px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+/* Title */
+.categories h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+/* Links */
+.categories a{
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #333;
+    background: #f4f6f9;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+/* Hover Effect */
+.categories a:hover{
+    background: #4a90e2;
+    color: white;
+    transform: translateX(5px);
+}
